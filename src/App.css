@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+button{border: 0; background-color: #007dd6; border-radius: 5px; color: wheat;}
+body{font-family: Verdana, Geneva, Tahoma, sans-serif; min-height: 100vh; background-color: #1d1d1d; color: #b78700;}
+.container{padding: 15px;}
+.flex{display: flex;}
+.row{flex-direction: row;}
+.column{flex-direction: column;}
+.space-between{justify-content: space-between;}
+
+#shop-container, #cart-container{width: 48%;}
+#wallet-container{width: 100%;}
+#cart-container{position: relative;}
+#cart-container, #wallet-container, #shop-container{border-radius: 10px; box-shadow: -7px 5px 11px 0px #7b2800; background-color: #3a3a3a;}
+#wallet{width: 40%;}
+
+.wallet-row:nth-child(odd){    background-color: #505050; padding: 5px;}
+.cart-options{position: absolute;bottom: 0; left: 0;width: 100%;}
+.cart-options button{width: 50%; height: 40px; color: white; font-size: 20px;}
+.purge, .pay{border-radius: 0;}
+.purge{background-color: #f95555;}
+
+.shop-row span{width: 120px;}
+.shop-row input{width: 50px; text-align: right; font-size: 16px; background-color: #fff9ca; font-weight: bold;}
+
+.shop-row button{width: 120px; height: 25px; }
+
+#balance{text-align: right;}
